@@ -36,13 +36,13 @@
 
 ### What I've built
 
-- **[Bladerunner](https://github.com/abhilash2429/BladeRunner)**: a watchdog for agent fleets. It reads traces, pauses an agent that breaks policy, proves the violation with cited spans, patches the guardrail and confirms the fix, with no human in the loop. On 102 held-out traces it cuts false alarms from 40% to 5% (precision 0.39 to 0.90). On 858 AgentDojo runs from agents I didn't build, precision goes from 0.69 to 0.88.
-- **[Enterprise Search](https://github.com/abhilash2429/enterprise-search-rag)**: cited answers over 512K company documents. Scores 67.9 vs 47.7 for BM25 on a held-out test split I ran once (+20.1, 95% CI +15.7 to +24.5), at $0.0028 per question. Exposed as an MCP server.
-- **[Macky](https://github.com/abhilash2429/Macky)**: a voice assistant in the Mac notch. Hold a key, say what you want, and it acts across your apps, handing long jobs to a background agent. ([site](https://heymacky.vercel.app), [demo](https://youtu.be/SIRyFt7ISx0))
-- **[Oversight Arena](https://github.com/abhilash2429/overSight_Arena)**: one model supervises five coding agents and learns to catch failures that look like successes. Trained Qwen2.5-3B on it with GRPO. ([writeup](https://abhilash24.me/blog/blog-post))
-- **[DeepRead](https://github.com/abhilash2429/DeepRead)**: drop in an ML paper, get a plan for implementing it. The Q&A agent checks its own citations and rewrites answers that don't hold up. ([live](https://deep-read-seven.vercel.app))
-- **[AfterCare](https://github.com/abhilash2429/afterCare)**: photograph an Indian hospital discharge summary, get a picture-and-voice medicine schedule in your language. Built on AWS Lambda, Textract, Bedrock and DynamoDB. ([live](https://main.d2nozesb14q5me.amplifyapp.com))
-- **[M-RAG](https://github.com/abhilash2429/Multimodal-Rag)**: RAG over hardware datasheets that reads the figures and tables too. It gets 61.5% of those questions right. Text-only got none.
+- **[Bladerunner](https://github.com/abhilashHQ/BladeRunner)**: a watchdog for agent fleets. It reads traces, pauses an agent that breaks policy, proves the violation with cited spans, patches the guardrail and confirms the fix, with no human in the loop. On 102 held-out traces it cuts false alarms from 40% to 5% (precision 0.39 to 0.90). On 858 AgentDojo runs from agents I didn't build, precision goes from 0.69 to 0.88.
+- **[Enterprise Search](https://github.com/abhilashHQ/enterprise-search-rag)**: cited answers over 512K company documents. Scores 67.9 vs 47.7 for BM25 on a held-out test split I ran once (+20.1, 95% CI +15.7 to +24.5), at $0.0028 per question. Exposed as an MCP server.
+- **[Macky](https://github.com/abhilashHQ/Macky)**: a voice assistant in the Mac notch. Hold a key, say what you want, and it acts across your apps, handing long jobs to a background agent. ([site](https://heymacky.vercel.app), [demo](https://youtu.be/SIRyFt7ISx0))
+- **[Oversight Arena](https://github.com/abhilashHQ/overSight_Arena)**: one model supervises five coding agents and learns to catch failures that look like successes. Trained Qwen2.5-3B on it with GRPO. ([writeup](https://abhilash24.me/blog/blog-post))
+- **[DeepRead](https://github.com/abhilashHQ/DeepRead)**: drop in an ML paper, get a plan for implementing it. The Q&A agent checks its own citations and rewrites answers that don't hold up. ([live](https://deep-read-seven.vercel.app))
+- **[AfterCare](https://github.com/abhilashHQ/afterCare)**: photograph an Indian hospital discharge summary, get a picture-and-voice medicine schedule in your language. Built on AWS Lambda, Textract, Bedrock and DynamoDB. ([live](https://main.d2nozesb14q5me.amplifyapp.com))
+- **[M-RAG](https://github.com/abhilashHQ/Multimodal-Rag)**: RAG over hardware datasheets that reads the figures and tables too. It gets 61.5% of those questions right. Text-only got none.
 
 <table>
 <tr>
@@ -78,8 +78,8 @@ More at [abhilash24.me/blog](https://abhilash24.me/blog)
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhilash2429/abhilash2429/output/github-contribution-grid-snake-dark.svg">
-  <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/abhilash2429/abhilash2429/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhilashHQ/abhilashHQ/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/abhilashHQ/abhilashHQ/output/github-contribution-grid-snake.svg">
 </picture>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f81f7,50:1f3b5c,100:0d1117&height=110&section=footer" width="100%" alt=""/>
